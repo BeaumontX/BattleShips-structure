@@ -13,9 +13,16 @@ Enum state
 - SHIP_HIT
 - SHIP_DEAD
 
+enum directions {
+	UP,
+	DOWN,
+	LEFT,
+	RIGHT
+}
+
 CreateShip(int x, int y)
 AttackCell(int x, int y)
 
 CheckCell(vector2i cell)
 CheckAdjacentCells(vector2i cell)
-CheckNextCell(vector2i cell, vector2i direction)
+CheckNextCell(vector2i cell, directions direction)
