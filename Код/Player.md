@@ -7,7 +7,9 @@ tags:
 ---
 Отвечает за данные игрока
 
-VisionGrid vision
-BattleGrid field
-
 String name
+
+VisionGrid vision
+ShipDataGrid field
+
+array\[Ship] ships
