@@ -7,7 +7,15 @@ tags:
 ---
 Корабль
 
-int size = 1
+enum types {
+	Battleship,
+	Carrier,
+	Destroyer,
+	Submarine
+}
+
+types type = Submarine
+
 dictionary\[Vector2i, bool] cells
 	true = жив
 

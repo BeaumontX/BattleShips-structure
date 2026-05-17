@@ -7,7 +7,12 @@ tags:
 ---
 Хранит информацию о правилах боя
 
-dictionary\[int, int] ShipsAmount
+
+Vector2i FieldSize = Vector2i(10, 10)
+
+dictionary\[int, int] ShipsAmount = {
+1:
+}
 	Первый инт - размер
 	Второй инт - количество
 

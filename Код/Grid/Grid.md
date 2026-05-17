@@ -7,7 +7,6 @@ tags:
   - "[[Resource]]"
 ---
 vector2i size
-	Будет получать чере
 
 dictionary\[Vector2i, int] grid
 	Конкретные данные будут определяться в дочерних классах
