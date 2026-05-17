@@ -5,8 +5,11 @@ tags:
 родитель:
   - "[[Grid]]"
 ---
-Поле видимости, открываемое игроком
+Поле видимости, открываемое врагом
+Изначально все клетки UNKNOWN
 
-Enum 
+Enum state
 - UNKNOWN
 - KNOWN
+
+RevealCell(int x, int y)

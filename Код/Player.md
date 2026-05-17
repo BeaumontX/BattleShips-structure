@@ -9,3 +9,5 @@ tags:
 
 VisionGrid vision
 BattleGrid field
+
+String name
