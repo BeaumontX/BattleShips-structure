@@ -13,7 +13,8 @@ Enum state
 - SHIP_HIT
 - SHIP_DEAD
 
-CreateShip(int x, int y)
-AttackCell(int x, int y)
+CreateShipCell
+AttackShipCell
+KillShipCell
 
-CheckCell(vector2i cell)
+CheckCell
